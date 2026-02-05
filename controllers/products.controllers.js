@@ -1,10 +1,7 @@
 
 import { v2 as cloudinary } from 'cloudinary'
 import productModel from '../models/product.model.js'
-import { json } from 'express'
-import path from 'path'
-import { size, success } from 'zod'
-import { useEffect } from 'react'
+
 const addProducts = async (req, res) => {
     try {
         const { name,gender, description, price, category,sizes,  subCategory,  bestseller, date, } = req.body
