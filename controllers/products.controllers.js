@@ -1,6 +1,6 @@
 
 import { v2 as cloudinary } from 'cloudinary'
-import productModel from '../models/product.Model.js'
+import productModel from '../models/product.model.js'
 import { json } from 'express'
 import path from 'path'
 import { size, success } from 'zod'
