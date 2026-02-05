@@ -1,6 +1,6 @@
 import express from 'express'
 import userModel from '../models/user.model.js'
-import productModel from '../models/product.Model.js'
+import productModel from '../models/product.model.js'
 import orderModel from '../models/orders.model.js'
 import { success } from 'zod'
 import { error } from 'console'
