@@ -119,3 +119,4 @@ app.get('/', (req,res)=> {
     res.send("api working")
 })
 
+export default app
